@@ -25,6 +25,10 @@ body {
   color: brown;
   border-bottom: 3px solid brown;
 }
+.brand-logo {
+  width: 100px;
+  height: 100px;
+}
 /* Main Navbar-End */
 /* WelcomeScreen Start */
 #main-screen {
