@@ -1,19 +1,21 @@
 import React, { Component } from 'react';
 import './../App.css';
+import Welcomescreen from './Welcomescreen';
 
 export class Header extends Component {
     render() {
         return (
             <div>
                 <div className="container main-top">
-                    <nav className="navbar navbar-default navbar-expand-lg navbar-fixed">
+                    <nav className="navbar navbar-default navbar-expand-lg  boostnav">
+                    <a className="navbar-brand m-0" href="#">Logo</a>
                         <div>
-                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
+                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                         <i class="fas fa-bars toggle-icon"></i>
                          </button>
                         </div>
-                        <a className="navbar-brand m-0" href="#">Navbar</a>
-                        <ul className="navbar-nav ml-auto">
+                        <div className="collapse navbar-collapse" id="navigation">
+                        <ul className="navbar-nav ml-auto" >
                             <li className="nav-item"><a className="nav-link" href="#">Home</a></li>
                             <li className="nav-item"><a className="nav-link" href="#">About</a></li>
                             <li className="nav-item"><a className="nav-link" href="#">Portfolio</a></li>
@@ -22,8 +24,10 @@ export class Header extends Component {
                             <li className="nav-item"><a className="nav-link" href="#">Education</a></li>
                             <li className="nav-item"><a className="nav-link" href="#">Skill</a></li>
                         </ul>
+                        </div>
                     </nav>
                 </div>
+                <Welcomescreen/>
             </div>
         );
     }
