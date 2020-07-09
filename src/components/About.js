@@ -46,7 +46,7 @@ export class About extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-sm-6 ">
+                                <div className=" col-sm-5 offset-sm-1">
                                     <div className="single-about-img">
                                         <img src={profile} alt="Profile-img"></img>
                                         <div className="about-list-icon">
