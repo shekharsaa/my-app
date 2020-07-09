@@ -11,8 +11,8 @@ export class Header extends Component {
                     <nav className="navbar navbar-default navbar-expand-lg  boostnav">
                     <a className="navbar-brand m-0" href="#"><img src={logo} className="brand-logo" alt="azaadtech"></img></a>
                         <div>
-                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-                         <i class="fas fa-bars toggle-icon"></i>
+                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                         <i className="fas fa-bars toggle-icon"></i>
                          </button>
                         </div>
                         <div className="collapse navbar-collapse" id="navigation">

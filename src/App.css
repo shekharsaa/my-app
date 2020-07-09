@@ -67,3 +67,101 @@ body {
   position: relative;
   top: 50px;
 }
+/* Welcomescreen End */
+/* About Section Start */
+#about {
+  padding: 50px 0 100px;
+}
+
+.about-heading {
+  text-align: center;
+}
+.about-heading h2 {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0 0 50px 0;
+  border-bottom: 1px solid #6a708e;
+}
+.about-content {
+  padding: 100px 0 0 0;
+}
+.single-about-txt h3 {
+  color: #3C4258;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  text-align: justify;
+  line-height: 1.8;
+}
+.single-about-txt > p {
+  text-align: justify;
+  font-size: 18px;
+  padding: 35px 0 43px ;
+  font-family: 'Poppins', sans-serif;
+  color: #6a708e;
+  border-bottom: 1px solid #6a708e;
+  line-height: 1.8;
+}
+.single-about-add-info {
+  color: #6a708e;
+  margin: 30px 0;
+  font-size: 16px;
+  font-family:'Poppins', sans-serif;
+}
+.single-about-img{
+  position: relative;
+  box-shadow: 0 5px 20px rgba(14,25,80,.30);
+}
+.single-about-img:before {
+    /* position:  absolute; */
+    content: " ";
+    top: 0;
+    left:  0;
+    width: 109%;
+    height:  100%;
+}
+.single-about-img img {
+  max-width: 100%;
+  height: 600px;
+}
+.about-list-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  background: #1f2c6c;
+}
+/*.ab-list-icon */
+.about-list-icon ul {
+  display: flex;
+  list-style: none;
+}
+.about-list-icon  ul li a {
+  padding-right: 22px;
+  cursor:pointer;
+  color: #fff;
+}
+.about-list-icon ul li a {
+  cursor: pointer;
+  color: #fff;
+  display: inline-block;
+  border: 2px solid;
+  margin-left: 20px;
+  border-radius: 6px;
+  width: 30px;
+  height: 30px;
+  line-height: 28px;
+  text-align: center;
+}
+.about-list-icon ul li a i {
+  margin: 0 4px 0 3px;
+  font-size: 24px;                                                                                                                                                                                                            
+}
+.about-img {
+  margin: 0 2px 0 8%;
+}
+/*About Section End  */
