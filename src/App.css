@@ -73,10 +73,10 @@ body {
   padding: 50px 0 100px;
 }
 
-.about-heading {
+.section-heading-text {
   text-align: center;
 }
-.about-heading h2 {
+.section-heading-text h2 {
   font-size: 24px;
   font-weight: 600;
   text-transform: uppercase;
@@ -133,7 +133,7 @@ body {
   left: 0;
   width: 100%;
   height: 90px;
-  background: #1f2c6c;
+  background: brown;
 }
 /*.ab-list-icon */
 .about-list-icon ul {
@@ -165,3 +165,56 @@ body {
   margin: 0 2px 0 8%;
 }
 /*About Section End  */
+/* Education Section Start */
+#education-section {
+  background-color: #f9fbfd;
+  padding: 50px 0 0 0;
+}
+.education-main-contentbox {
+  padding: 80px 0;
+}
+.duration-time h2 {
+  color: #212529;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+}
+.duration-time h3 {
+  color: #636a82;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 14px 0 0 0;
+  text-transform: capitalize;
+}
+.duration-time-border {
+  display: flex;
+  align-items: center;
+  padding: 26px 0 30px;
+}
+.duration-time-border i {
+  font-size: 10px;
+  color: brown;
+  margin: 0 5px 0 0;
+}
+span.single-timeline-horizontal {
+  display:  inline-block;
+  background: #b2c1ce;
+  height:  1px;
+  width: 380px;
+}
+.institute-content h4.title {
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.institute-content h5 {
+  color: #636a82;
+  font-size: 16px;
+  font-weight: 400;
+}
+.institute-content p.description {
+  font-size: 16px;
+  color: #636a82;
+  text-align: justify;
+}
