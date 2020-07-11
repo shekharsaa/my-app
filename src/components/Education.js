@@ -20,7 +20,7 @@ export class Education extends Component {
                                         {/* Duration-time */}
                                         <div className="duration-time">
                                             <h2>2017-2020</h2>
-                                            <h3>Bachelor of Vocational (Software Development)</h3>
+                                            <h3>B.Voc(Software Development)</h3>
                                         </div>
                                         <div class="duration-time-border">
 									        <i class="fa fa-circle" aria-hidden="true"></i>

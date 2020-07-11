@@ -218,3 +218,57 @@ span.single-timeline-horizontal {
   color: #636a82;
   text-align: justify;
 }
+/* Education section End */
+/* Skill Section Start */
+.skill-content {
+  padding: 50px 0 80px;
+}
+.single-skill-content {
+  padding: 100px 0 0 0;
+}
+.barwrapper {
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.single-progress-text {
+  display: flex; 
+}
+.progress {
+  border-radius: 3px;
+  overflow: visible;
+  background: #e6ecf3;
+  height: 8px;
+  margin-top: 15px;
+  width: 85%;
+  margin-bottom: 37px;
+}
+.single-progress-text h3 {
+  width: 10%;
+  color: brown;
+  position: relative;
+  top: 5px;
+  left: 20px;
+  font: 16px 'Poppins',sans-serif;
+}
+.progress-bar {
+  background: brown;
+  border-radius: 3px;
+ 
+}
+
+/* Skill Section End */
+/* Experience-Section Start */
+.experience-section {
+  padding: 50px 0 100px;
+  border-top: 1px solid  #6a708e;
+}
+.experience-content {
+  padding: 100px 0 0 0;
+}
+.experience-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* Experience-Section End */
