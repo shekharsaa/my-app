@@ -12,7 +12,7 @@ export class Welcomescreen extends Component {
                             <div className="col-md-12 text-center">
                                 <div className="header-text">
                                     <h2>Hi i am Chander shekhar</h2>
-                                    <p>Web Developer</p>
+                                    <h3>Web Developer</h3>
                                     <a href="#" >Download Resume</a>
                                 </div>
                              <Particles 

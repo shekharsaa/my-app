@@ -7,6 +7,7 @@ export class Header extends Component {
     render() {
         return (
             <div>
+                <div className="container-fluid header">
                 <div className="container main-top">
                     <nav className="navbar navbar-default navbar-expand-lg  boostnav">
                     <a className="navbar-brand m-0" href="#"><img src={logo} className="brand-logo" alt="azaadtech"></img></a>
@@ -27,6 +28,7 @@ export class Header extends Component {
                         </ul>
                         </div>
                     </nav>
+                </div>
                 </div>
                 <Welcomescreen/>
             </div>

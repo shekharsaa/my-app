@@ -29,11 +29,11 @@ export class Skill extends Component {
                                             <span className="progresstext">Css</span>
                                             <div className="single-progress-text">
                                                 <div className="progress">
-                                                    <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style={{width:"80%"}}>
+                                                    <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style={{width:"950%"}}>
 
                                                     </div>
                                                 </div>
-                                                <h3>80%</h3>
+                                                <h3>95%</h3>
                                             </div>
                                         </div>
                                         <div className="barwrapper">
@@ -66,10 +66,10 @@ export class Skill extends Component {
                                             <span className="progresstext">PHP</span>
                                             <div className="single-progress-text">
                                                 <div className="progress">
-                                                    <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style={{width:"90%"}}>
+                                                    <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style={{width:"70%"}}>
                                                     </div>
                                                 </div>
-                                                <h3>90%</h3>
+                                                <h3>70%</h3>
                                             </div>
                                         </div>
                                         <div className="barwrapper">

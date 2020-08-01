@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import kfclogo from './images/kfclogo.png';
+import pizzahutlogo from './images/pizzahut-logo.png';
+import weblogo from './images/web-logo.png';
 import './../App.css';
 
 export class Experience extends Component {
@@ -9,38 +12,32 @@ export class Experience extends Component {
                     <div className="section-heading-text">
                         <h2>Experience</h2>
                     </div>
-                    <div className="container">
+                    <div className="experience-container">
                         <div className="experience-content">
-                            <div className="main-timeline">
-                                <ul>
-                                    <li>
-                                        <div className="single-timeline-box">
-                                            <div className="row">
-                                                <div className="col-md-5">
-                                                    <div className="experience-time">
-                                                        <h2>2017-Present</h2>
-                                                        <h3>Team Member</h3>
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-5 col-md-offset-1">
-                                                    <div className="timeline">
-                                                        <div className="timeline-content">
-                                                            <h4 className="title">
-                                                                Sapphirefood PVT LTD
-                                                            </h4>
-                                                            <p className="description">
-                                                                
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-
-                                    </li>
-                                </ul>
+                            <div className="experience-logo">
+                                <img src={kfclogo} alt="KFC-Logo"/>
+                            </div>
+                            <div>
+                                <h2>KFC </h2>
+                                <p>Team Member</p>
+                            </div>
+                        </div>
+                        <div className="experience-content">
+                            <div className="experience-logo">
+                                <img src={pizzahutlogo} alt="PizzaHut"/>
+                            </div>
+                            <div>
+                                <h2>Pizza Hut</h2>
+                                <p>Team Member</p>
+                            </div>
+                        </div>
+                        <div className="experience-content">
+                            <div className="experience-logo">
+                                <img  src={weblogo} alt="Web Development"/>
+                            </div>
+                            <div>
+                                <h2>Web Development</h2>
+                                <p>Team Member</p>
                             </div>
                         </div>
                     </div>
